@@ -1,0 +1,105 @@
+ .header{
+     background-color: rgb(4, 160, 160);
+     padding-left: 10px;
+     color:white;
+     font-family:Calibri;
+     float:right;
+     width:70%;
+ }
+
+ .heading{
+     color:white;
+ }
+
+
+ .sidebar{
+     width:25%;
+     height: 100%;
+     background-color: azure;
+     padding-left: 20px;
+     margin: 20pt;
+ }
+
+ .ricpic{
+    position:top;
+     margin:20px;
+     width:150px ;
+     border: 0em;
+     border-radius: 25%;
+     
+ }
+  .article{
+      float:right;
+      margin-left: 10px;
+      width: 70%;
+      line-height: 1em;
+     
+ }
+ .Workex{
+     color: rgb(4, 160, 160);
+ }
+
+.Titles{
+    color: rgb(4, 160, 160);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.compnames{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dur{
+    color: rgb(4, 160, 160);
+}
+.statements{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-size: 10pt;
+}
+.statement2{
+    list-style-type: circle;
+}
+li{
+    list-style:square;
+}
+
+.contact{
+    width: 150px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(4, 160, 160);
+}
+
+.contactlogo{
+    width:30px;
+    }
+
+h2{
+    color: rgb(4, 160, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.skills{
+    background-color: rgb(4, 160, 160);
+    font-size: 15pt;
+    color:white;
+    margin: 5px;
+    padding: 5px;
+    border: 0em;
+    border-radius: 35%;
+    
+}
+.lang{
+    border:0;
+    font-family: Verdana;
+    color: black;
+    font-size: 9pt;
+    width:10%;
+}
+
+.hobby{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+
+
+
