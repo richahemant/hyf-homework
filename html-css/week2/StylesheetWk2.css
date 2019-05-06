@@ -125,15 +125,96 @@
 .span{
     color:gray;
 }
-@media  (max-width: 699px) {
-    .logos{
-        width: 25%;
-        margin:0;
+
+/*-----------Adding media queries----------*/
+
+@media  (max-width: 680px) and (min-width:360px) {
+
+    /*Media queries for header, navbar and image*/
+    .header{
+        max-width: 320px; 
+        margin: 0px;
     }
-    .container2{
-        display: block;
+    .introline {
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        margin: 10px;
+    }
+    .subheading{
+        margin: 10px;
+        font-size: 15px;
     }
     .navbar{
-        display: table-column;
+        display: block;
+        width:100%;
+        align-items: left;
     }
- }
+    .navlist{
+        display: flex;
+        align-content: center;
+        font-size: 15px;
+        width:100%;
+    }
+    .image{
+        max-width: 680px;
+        min-width: 360px;
+        margin:0px;
+    }
+
+ /*Media queries for Container 1 - The two textual paragraphs*/
+
+    .container1{
+        display: block;
+        width:100%;
+    }
+    .title1{
+        margin-left: 10px;
+        align-content: center;
+    }
+    .description-text1{
+        font-size: 10px;
+        margin: 0px;
+    }
+    .smallparagraph{
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+/*Media queries for Container 2 - The gallery and the adjacent box of logos*/
+    .container2{
+        display: block;
+        width:100%;
+       
+    }
+    .the-gallery{
+        display: block;
+        margin-left: 10px;
+        align-content: center;
+    }
+    .logos{
+        display: block;
+        width: 50%;
+        margin: 0px;
+
+    }
+
+    /*Media queries for Container 3 - The purple footer*/
+
+
+    .container3{
+        display: block;
+        width: 100%;
+        margin:0px;
+    }
+    .navigation, .archive, .about,.find-us{
+        margin-left: 20px;
+        margin-bottom: 50px;
+        display: block;
+        width:100%;
+    }
+    .map{
+        width:100%;
+    }
+
+}
