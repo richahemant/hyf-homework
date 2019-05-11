@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <a href="indexWk3-1a.html"></a>
+    <link rel="stylesheet" href="stylesheetWF.css">
+    <title>Step 1b</title>
+</head>
+
+
+<body>
+  
+    <!---Header and Navigation bar--->
+<div class="header">
+        <div class="header-logo">
+        <img class="img"src="https://cdn.shopify.com/s/files/1/2799/4546/files/TheFind_Logo_Instagram_ImageFeed_100x.jpg?v=1516638217" Alt=Brand-Logo>
+        </div>
+        <br>
+        <div class="navbar">
+          <ul class="navibar">
+            <li class="navlist" a href="#">Home </a></li>
+            <li class="navlist" a href="#">About </a></li>
+            <li class="navlist" a href="#">Contact Us </a></li>
+          </ul>
+        </div>
+    </div>
+    
+    <!---Textual data-->
+    <section>
+    <h1> Sign-up to Find.com!</h1>
+    </section>
+    
+      
+    <!---Form starts here--->
+    
+      <form action="#" method="post">
+        <p class="PB">Progress Bar</p>
+        <progress max="4" value="2">2/4</progress>
+        <h3>We work to make you look better!</h3>
+        <p>We cant wait to help you improve your style and get attention from the<br>
+            people around you!<br>
+            Sign-up below and save up to 70% on apparel, cosmetics and hand-bags.<br>
+            Our agents will pick the best offers that match your preferences and style.<br>
+            Each week, we will send you a hand-picked selection - just as we get to know <br>
+            some more details about you</p>
+        </section>
+    
+    <!---Progress bar--->
+    
+    <div class="progressbar">
+      <h2> Step 1/4- Tell us who you are?</h2>
+    
+    <!---Form starts here--->
+    
+      <form action="#" method="post">
+          <p>Progress Bar</p>
+        <progress max="4" value="1">1/4</progress>
+        <p class="p4"> Nice to meet you. Let's spen a minute to get to know you better?</p><br>
+         
+    <!---Fieldset area---->
+
+        <fieldset> 
+          <legend>Please enter the following to get started</legend>
+
+          <div>
+          <label for="FirstName" class="FN">First Name* :</label>
+          <input type="text" id="FirstName" name="first-name" required autofocus>
+          </div>
+    
+          <div>
+          <label for="Surname"class="LN">Last Name* :</label>
+          <input type="text" id="LastName" name="last-name" required>
+          </div>
+       
+          <div>
+            <label for="Country"class="ctry"> Country* :</label>
+            <input type="text" name="country" id="country" list="Choose-from" required>
+            <datalist id="Choose-from">
+                <option value="Denmark" checked>Denmark</option>
+                <option value="Finland">Finland</option>
+                <option value="Sweden">Sweden</option>
+                <option value=Norway>Norway</option>
+                <option value="Iceland">Iceland</option>
+                <option value="Aaland">Aaland</option>
+                <option value="Greenland">Greenland</option>
+                <option value="Faroe Islands">Faroe Islands</option>
+            </datalist> 
+          </div>
+    
+          <div>
+            <label for="Street Address" class="SA"> Street Address* :</label>
+            <textarea id="streetadd" name="address" maxlength="300"></textarea> 
+          </div>
+    
+          <div>
+            <label for="postcode"class="postcode"> Post Code* :</label>
+            <input type="tel" name="number" required maxlength="4">
+          </div>
+    
+          <div>
+            <label for="Profile" class="profile">Profile Description</label> <br>
+            <p class="prf"><i>Please provide us a brief description <br>
+              of your yourself to be displayed on our<br>
+              social community pages. </i></p>
+    
+          <textarea class="profile-dcrp" name="profile description" maxlength="1500"></textarea>
+          </div> <br>
+    
+            <p>Use the same address for billing and shipping? Uncheck below to fill out a separate shipping address.</p>
+    
+            <label for="Checkbox" class="checkbox"> Shipping Address</label>
+            <input type="checkbox" id="Checkbox" name="checkbox" required> <br>
+            <br>
+
+            <!---Shipping Address unchecked--->
+
+            <p>Shipping Address</p>
+
+            <div >
+                    <label for="FirstName" class="FN">First Name*:</label>
+                    <input type="text" id="FirstName" name="first-name" required autofocus>
+                    </div>
+              
+                    <div >
+                    <label for="Surname"class="LN">Last Name*:</label>
+                    <input type="text" id="LastName" name="last-name" required>
+                    </div>
+                 
+                    <div >
+                      <label for="Country"class="ctry"> Country*:</label>
+                      <input type="text" name="country" id="country" list="Choose-from" required>
+                      <datalist id="Choose-from">
+                          <option value="Denmark" checked>Denmark</option>
+                          <option value="Finland">Finland</option>
+                          <option value="Sweden">Sweden</option>
+                          <option value=Norway>Norway</option>
+                          <option value="Iceland">Iceland</option>
+                          <option value="Aaland">Aaland</option>
+                          <option value="Greenland">Greenland</option>
+                          <option value="Faroe Islands">Faroe Islands</option>
+                      </datalist> 
+                    </div>
+              
+                    <div >
+                      <label for="Street Address" class="SA"> Street Address*</label>
+                      <textarea id="streetadd" name="address" maxlength="400"></textarea> 
+                    </div>
+              
+                    <div >
+                      <label for="postcode"class="postcode"> Post Code*</label>
+                      <input type="tel" name="number" required maxlength="4">
+                    </div>
+    
+            <div>
+            <label for="Next Step" class="next-step"></label>
+            <input type="submit" name="next-step" value="Next Step" formaction="indexWk3-2.html">
+           </div>
+      
+          </fieldset>
+      </form>
+    </div>
+    
+</body>
+</html>

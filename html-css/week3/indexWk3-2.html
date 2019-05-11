@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="html sheet 1b" href="indexWk3-1b.html">
+    <link rel="stylesheet" href="stylesheetWF.css">
+    <title>Step 2</title>
+</head>
+
+
+<body>
+    <!---Header and Navigation bar--->
+<div class="header">
+        <div class="header-logo">
+        <img class="img"src="https://cdn.shopify.com/s/files/1/2799/4546/files/TheFind_Logo_Instagram_ImageFeed_100x.jpg?v=1516638217" Alt=Brand-Logo>
+        </div>
+        <br>
+        <div class="navbar">
+          <ul class="navibar">
+            <li class="navlist" href="#">Home </a></li>
+            <li class="navlist" href="#">About </a></li>
+            <li class="navlist" href="#">Contact Us </a></li>
+          </ul>
+        </div>
+    </div>
+    
+    <!---Textual data-->
+    <section>
+    <h1> Sign-up to Find.com!</h1>
+    </section>
+    
+    <!---Progress bar--->
+    
+    <div class="progressbar">
+      <h2> Step 2/4- How can we reach you?</h2>
+    
+    <!---Form starts here--->
+    
+      <form action="#" method="post">
+        <p class="PB">Progress Bar</p>
+        <progress max="4" value="2">2/4</progress>
+        <p class="p4"> We would like to keep in touch. Let us know how we can reach you</p><br>
+
+    <fieldset>  
+
+         <legend> Contact Details</legend>
+
+        <label for="Email-Id" class="email"> Email-Id* :</label>
+        <input type="email" name="email" required autofocus>
+    
+        <label for="Password" class="pwd1"> Password* :</label>
+        <input type="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+        title="Please include at least 1 uppercase character, 1 lowercase character and 1 number." required>
+    
+        <label for="Password" class="pwd2"> Re-enter Password* :</label>
+        <input type="Password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$" 
+        title="Please include at least 1 uppercase character, 1 lowercase character and 1 number." required>
+
+        <label for="Phn number" class="tel"> Phone* :</label>
+        <input type="Tel" name="Tel" required maxlength="11">
+  
+        <p>I want to sign up for the newsletter</p>
+
+        <label class="NL">Weekly
+            <input type="checkbox" checked="checked">
+            <span class="checkmark"></span></label>
+        <label class="NL"> Monthly
+            <input type="checkbox">
+            <span class="checkmark"></span></label>
+        <label class="NL"> Yearly
+            <input type="checkbox">
+            <span class="checkmark"></span></label>
+        <label class="NL"> I do not want any newsletter
+            <input type="checkbox">
+            <span class="checkmark"></span></label> 
+    
+    <br>
+    <br>
+
+        <label for="Next Step" class="next-step"></label>
+        <input type="submit" name="next-step" value="Next Step" formaction="indexWk3-3.html">
+   
+    </fieldset> 
+    </form>
+
+</body>
+</html>

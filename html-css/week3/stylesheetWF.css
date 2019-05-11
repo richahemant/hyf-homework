@@ -1,0 +1,190 @@
+/*-------------Beginning of page - Header & Navigation bar-------------------------*/
+
+.header{
+    width:100%;
+    margin:0px;
+    padding: auto;
+    display: flex;
+    background-color:lavender;
+}
+/* Progress bar*/
+
+.img{
+    float: left;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+}
+/* Navigation bar*/
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+.navibar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:5px;
+}
+.navlist{
+    display: flex;
+    justify-content:flex-end;
+    font-family: Geneva, Verdana, sans-serif;;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+    padding:25px;
+}
+/*---------Header & Navbar styling complete-------------------------------*/
+
+/*----Section with descriptive text----*/
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+h1, h2, h3{
+    color:darkblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*-------------------------------------------------------------------------------------*/
+
+/* Fieldset and form data styling* - Page 1a + 1b */
+
+.legend{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: darkblue;
+}
+.basics{
+    display: block;
+    margin:10px;
+    justify-content: space-evenly;
+    height:400px;
+}
+
+input[type=text], input[type=number], textarea, input[type=tel], input[type=email] input[type=password]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: lavender;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkblue;
+  }
+
+.prf{
+    font-size: 10px;
+}
+
+
+
+/*-------Styling for page 2 starts here----*/
+
+ input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: lavender;
+ }  
+ .NL {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+ /*-------Styling for page 3 starts here----*/
+
+  .offers {
+    display: inline-block;
+    position: relative;
+    margin:20px;
+    padding: 0px;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;  
+ }
+ .images{
+     display: flex;
+     align-items: flex-start;
+     flex-wrap: wrap;
+     margin:20px;
+     width:50%;
+ }
+ .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+     text-align: right;
+     font-size: 15px;
+     font-family: Geneva, Verdana, sans-serif;
+     border: 1px, solid;
+ }
+.p4{
+    font-weight: bold;
+}
+  /*-------Styling for page 4 starts here----*/
+
+  .payment{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    justify-content: flex-start;
+    
+}
+.card-name, .card-type, .card-number, .expiry-month, .expiry-year, .CVV{
+    display: block;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 1rem;
+    font-size: 15px;
+}
+.finish{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+input[type="submit"]{
+    width:80px;
+    height:50px;
+    padding:2px;
+    border: solid, 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    font-size: 12px;
+    font-weight: bold;
+    color:darkblue;
+    background-color:lavender;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    color:lightskyblue;
+}
+
+    
+
+.pay-data, .legend{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+    font-size: 15px; 
+    font-weight: bold;
+        
+}
+  
+
+
+
+
+
