@@ -1,0 +1,39 @@
+body {
+    background-image: url("http://fisaum.ankara.edu.tr/wp-content/themes/risen/images/backgrounds/sun.jpg");
+    height : 100%, no-repeat;
+}
+
+h1 {
+    color: rgb(170, 93, 4);
+}
+
+h2 {
+    color: rgb(170, 93, 4);
+}
+
+.userData{
+    margin: 10px;
+    
+}
+.UN{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(170, 93, 4);
+}
+
+.submit{
+    background-color: beige;
+    border-radius: 50%;
+}
+#userName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(170, 93, 4);
+}
+
+#returnMsg{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(170, 93, 4);
+}
