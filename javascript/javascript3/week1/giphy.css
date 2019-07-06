@@ -1,0 +1,33 @@
+body{
+    background-color:lightyellow;
+}
+
+input  {
+    margin: 10px;
+    padding:5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: darkgreen;
+    font-weight: bold;
+}
+#mybtn {
+    margin: 20px;
+    padding: .5em 2em;
+}
+
+#errorMessage{
+    font-weight: bold;
+}
+
+img{
+    height: 10em;
+}
+
+#result{
+    display: inline-block;
+}
