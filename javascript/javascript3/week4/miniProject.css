@@ -1,0 +1,92 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+}
+#img {
+  height: 30%;
+}
+label {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  width: 100%;
+}
+
+.container li {
+  width: 80%;
+  text-align: center;
+  vertical-align: middle;
+  align-self: center;
+  margin: 10px;
+}
+
+#displayEmoji {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 20px;
+  width: 90%;
+  align-self: center;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  height: 50%;
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+
+#favourites {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding: 20px;
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
+  align-self: center;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+  height: 15%;
+  overflow: auto;
+  margin-bottom: 2rem;
+}
+.container li:hover {
+  background-color: palevioletred;
+}
+
+.container li span {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.emoji {
+  font-size: 26px;
+  margin: 10pc;
+}
+.emoji:hover {
+  background-color: lightsalmon;
+}
+
+.emojiName {
+  font-size: 14px;
+  color: "dark blue";
+  text-align: center;
+  vertical-align: middle;
+}
+.emojiName:hover {
+  background-color: lightsalmon;
+}
+div {
+  cursor: pointer;
+}

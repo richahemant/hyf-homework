@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+           
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="miniProject.css">
+        <title>Emoji Search</title>
+    </head>
+    <body>
+        
+        <img id = "img"src= https://cdn.shopify.com/s/files/1/1061/1924/files/emoji_copy.gif?13622089314586273327 />
+
+        <h1> Find the best emojis here!</h1>
+        <main>
+            <label>Search by keyword</label>
+            <input type="text" name="search" id="searchField">
+        </br>
+        </br>
+            <label>Select Category to Display</label>
+            <select id="selectDisplay">
+                <option value='displayAll'>Display All</option>
+            </select>
+        </br>
+        </br>
+            <label>Click on the emojis to Copy</label>
+            <ul id="displayEmoji"></ul>
+            <ul class="container"></ul>
+        </br>
+
+            <label>Click on the emojis above to add them to your <span style="color:red">'Favourites' </span>list </label>
+            <ul id="favourites"></ul>
+        </br>
+
+        </main>
+    
+        <script src="miniProjectJS.js"></script> 
+        <script src="copy-to-clipboardJS.js"></script>
+    </body>
+
+</html>
