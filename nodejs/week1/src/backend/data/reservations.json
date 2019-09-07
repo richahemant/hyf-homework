@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Benjamin Hughes",
+      "email": "benjamin@hughes.dk",
+      "mealId": 1
+    },
+
+    {
+        "name": "John Snow",
+        "email": "john@snow.dk",
+        "mealId": 1
+    },
+
+    {
+        "name": "San Starc",
+        "email": "san@snow.dk",
+        "mealId": 3
+    },
+
+    {
+        "name": "Ser Davos",
+        "email": "ser@davos.by",
+        "mealId": 4
+    }
+
+  ]
