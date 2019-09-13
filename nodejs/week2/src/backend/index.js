@@ -7,8 +7,6 @@ const reservationRoutes = require('./routes/reservations.js');
 const randomReservationRoutes = require('./routes/randomReservation');
 const reviewsRoute = require('./routes/reviews.js');
 
-// Imports the express function from the express module imported above. 
-// Unlike other modules, express directly exports the express() function.
 const app = express();
 
 
@@ -33,9 +31,9 @@ app.get('/meals', mealRoutes);
 
 app.get('/meals/:id', mealRoutes);
 
-app.get('/largemeals', largeMealRoutes);
+//app.get('/largemeals', largeMealRoutes);
 
-app.get('/meal', randomDishRoutes);
+//app.get('/meal', randomDishRoutes);
 
 app.get('/reservations', reservationRoutes);
 
@@ -47,14 +45,11 @@ app.get('/reviews', reviewsRoute);
 
 app.get('/reviews/:id', reviewsRoute);
 
-// Homework Week 2 Solutions
 
 //404 Error Routines...
 app.use(function(req, res, next) {
-    return res.status(404).send("Unfortunately the page was not found");
+    return res.status(404).send("Sorry, page not found");
   });
-
-
 
 let server = app.listen(3000, function(){
     let host = server.address().address;
