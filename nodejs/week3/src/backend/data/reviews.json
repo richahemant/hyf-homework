@@ -1,0 +1,89 @@
+
+[
+    {
+      "id": 1,
+      "numberOfStars": 4,
+      "content": 1,
+      "createdAt":12345,
+      "mealID": 4
+    },
+    {
+        "id": 2,
+        "numberOfStars": 3,
+        "content": 1,
+        "createdAt": 23456,
+        "mealID": 2
+    },
+
+    {
+        "id": 3,
+        "numberOfStars": 5,
+        "content": 1,
+        "createdAt":34567,
+        "mealID": 4
+    },
+    {
+        "id": 4,
+        "numberOfStars": 3,
+        "content": 1,
+        "createdAt":679898,
+        "mealID": 1
+    },
+    {
+        "id": 5,
+        "numberOfStars": 5,
+        "content": 1,
+        "createdAt":34589,
+        "mealID": 4
+    },
+    {
+        "id": 6,
+        "numberOfStars": 2,
+        "content": 1,
+        "createdAt":23990,
+        "mealID": 3
+    },
+    {
+        "id": 7,
+        "numberOfStars": 3,
+        "content": 1,
+        "createdAt":47568,
+        "mealID": 4
+    },
+    {
+        "id": 8,
+        "numberOfStars": 2,
+        "content": 1,
+        "createdAt":23415,
+        "mealID": 4
+    },
+    {
+        "id": 9,
+        "numberOfStars": 2,
+        "content": 1,
+        "createdAt":23415,
+        "mealID": 4
+    },
+    {
+        "id": 10,
+        "numberOfStars": 2,
+        "content": 1,
+        "createdAt":23415,
+        "mealID": 4
+    },
+    {
+        "id": 11,
+        "numberOfStars": 2,
+        "content": 1,
+        "createdAt":23415,
+        "mealID": 4
+    },
+    {
+        "id": 12,
+        "numberOfStars": 2,
+        "content": 1,
+        "createdAt":23415,
+        "mealID": 4
+    }
+
+]
