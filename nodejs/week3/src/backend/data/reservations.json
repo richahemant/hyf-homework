@@ -1,0 +1,55 @@
+[
+    { "id": 1,
+      "name": "Benjamin Hughes",
+      "email": "benjamin@hughes.dk",
+      "mealId": 1
+    },
+
+    {   "id": 2,
+        "name": "Jon Snow",
+        "email": "jon@snow.dk",
+        "mealId": 2
+    },
+
+    {   "id": 3,
+        "name": "Sansa Stark",
+        "email": "san@snow.dk",
+        "mealId": 3
+    },
+
+    {   "id": 4,
+        "name": "Cersei Lannister",
+        "email": "cersei@lannister.dk",
+        "mealId": 4
+    },
+
+    {   "id": 5,
+        "name": "Tyrion Lannister",
+        "email": "tyrion@lannister.dk",
+        "mealId": 5
+    },
+
+    {   "id": 6,
+        "name": "Robb Stark",
+        "email": "robb@stark.dk",
+        "mealId": 6
+    },
+
+    {   "id": 7,
+        "name": "Ramsay Bolton",
+        "email": "ramsay@bolton.dk",
+        "mealId": 7
+    },
+
+    {   "id": 8,
+        "name": "Stannis Baratheon",
+        "email": "stannis@baratheon.by",
+        "mealId": 6
+    },
+    {   "id": 9,
+        "name": "Theon Greyjoy",
+        "email": "theon@greyjoy.by",
+        "mealId": 7
+    }
+
+  ]
