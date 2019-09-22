@@ -1,0 +1,50 @@
+[
+    {
+      "id":1,
+      "title":"Indian food in the summer",
+      "maxNumberOfGuests":5,
+      "description":"A nice night out eating delicious indian food",
+      "createdAt":"2019/12/7 14:34","price":67
+      },
+
+      {
+        "id":2,
+        "title":"Chinese food in the Winter",
+        "maxNumberOfGuests":2,
+        "description":"A nice afternoon out eating delicious chinese food",
+        "createdAt":"2019/12/7 14:34","price":32
+        },
+
+        {
+            "id":3,
+            "title":"Danish food in the Afternoon",
+            "maxNumberOfGuests": 4,
+            "description":"A nice breakfast out eating delicious dansk food",
+            "createdAt":"2019/12/7 14:34","price":100
+        },
+        
+        {
+            "id":4,
+            "title":"Norwegian food in the Winter",
+            "maxNumberOfGuests":5,
+            "description":"A nice afternoon out eating delicious norsk food",
+            "createdAt":"2019/12/7 14:34","price":150
+        },
+
+        {
+            "id":5,
+            "title":"Thai Food",
+            "maxNumberOfGuests":20,
+            "description":"Thai TV Dinner",
+            "createdAt":"2019/12/7 14:34","price":25
+        },
+
+        {
+            "id":6,
+            "title":"French Dinner",
+            "maxNumberOfGuests":2,
+            "description":"French alaCarte",
+            "createdAt":"2019/12/7 14:34","price":225
+        }
+
+  ]
